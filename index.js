@@ -1,9 +1,13 @@
-import printAST from "ast-pretty-print";
+const printAST = require("ast-pretty-print");
+
+const whitelist = ["FunctionDeclaration", "FunctionExpression"];
 
 function test(maybeNode) {
-  return maybeMap.location;
+  return maybeNode && maybeNode.type && whitelist.includes(maybeNode.type);
 }
 
-const print = printAST;
+function print(node) {
+  return printAST(node, false);
+}
 
-module.exports = ({ print, test }: Plugin);
+module.exports = { print, test };

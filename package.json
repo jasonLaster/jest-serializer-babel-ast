@@ -1,0 +1,18 @@
+{
+  "name": "jest-serializer-babel-ast",
+  "version": "0.0.4",
+  "description": "Helps serialize babel ast nodes for jest snapshots",
+  "scripts": {},
+  "repository": {
+    "url": "git+https://github.com/jasonLaster/jest-serializer-babel-ast.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonLaster/jest-serializer-babel-ast/issues"
+  },
+  "homepage": "https://github.com/jasonLaster/jest-serializer-babel-ast#readme",
+  "dependencies": {
+    "ast-pretty-print": "^1.1.5"
+  },
+  "devDependencies": {}
+}
