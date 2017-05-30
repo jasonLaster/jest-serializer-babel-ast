@@ -1,7 +1,8 @@
 {
   "name": "jest-serializer-babel-ast",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Helps serialize babel ast nodes for jest snapshots",
+  "license": "MIT",
   "scripts": {},
   "repository": {
     "url": "git+https://github.com/jasonLaster/jest-serializer-babel-ast.git",
